@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steban Schrader - Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo"><img src="assets/logo.png" alt="Logo Minimal"
+                    style="width: 100px; object-fit: contain;"></a>
+            <ul class="nav-links">
+                <li><a href="#about">A propos</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="assets/Schrader%20St%C3%A9ban.pdf" target="_blank">Mon CV</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero" id="home">
+        <div class="container hero-content">
+            <div class="text-content">
+                <h1 class="name">STEBAN<br>SCHRADER</h1>
+                <p class="subtitle">ETUDIANT EN 2EME ANNÉE DE BUT-INFO</p>
+                <div class="hero-buttons">
+                    <a href="assets/Schrader%20St%C3%A9ban.pdf" target="_blank" class="btn">Voir mon CV</a>
+                    <a href="#contact" class="btn btn-outline">Me Contacter</a>
+                </div>
+            </div>
+            <div class="image-content">
+                <img src="assets/profile.jpg" alt="Stéban Schrader" class="profile-img">
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">A PROPOS DE MOI</h2>
+                <div class="about-content">
+                    <p class="text-muted">Mon intérêt pour l'informatique s'est éveillé dès l'enfance, fasciné par la technologie et son
+                        potentiel. Cette curiosité initiale s'est transformée en vocation au fil de mon parcours
+                        scolaire, notamment lors de mes premiers pas en programmation.</p>
+                    <p class="text-muted">Au lycée, j'ai orienté mes études vers la filière STI2D (Systèmes d'Information et Numérique), où
+                        j'ai pu concrétiser mes aptitudes techniques. Cette formation a confirmé mon choix de carrière
+                        et m'a permis de développer une rigueur scientifique.</p>
+                    <br>
+                    <p style="font-weight: bold;">
+                        Aujourd'hui étudiant en deuxième année de BUT Informatique, je me consacre pleinement à
+                        l'ingénierie logicielle. Je m'attache à perfectionner mes compétences en développement web et
+                        applicatif, avec un intérêt particulier pour les architectures modernes.
+                    </p>
+                    <p class="text-muted" >Passionné par la résolution de problématiques complexes, je conçois des
+                        interfaces utilisateur intuitives et performantes. Mon cursus m'a doté de solides bases en
+                        algorithmique, programmation orientée objet et gestion de bases de données. Proactif, j'assure
+                        une veille technologique constante pour maîtriser les nouveaux langages et frameworks.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">Compétences</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <h3>Développement Web</h3>
+                        <ul>
+                            <li>HTML5/CSS3</li>
+                            <li>JavaScript</li>
+                            <li>React.js</li>
+                            <li>PHP</li>
+                        </ul>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Programmation</h3>
+                        <ul>
+                            <li>Java</li>
+                            <li>Python</li>
+                            <li>C++</li>
+                            <li>C#</li>
+                        </ul>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Outils & DevOps</h3>
+                        <ul>
+                            <li>Git/GitHub</li>
+                            <li>Docker</li>
+                            <li>VS Code / Suite JETBRAINS</li>
+                            <li>Figma</li>
+                            <li>Trello</li>
+                            <li>Méthodes Agile -> SCRUM</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Mes Projets</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <img src="https://placehold.co/600x400/8faec8/ffffff?text=Compteur+Numérique"
+                            alt="Compteur Numérique Moto">
+                        <div class="project-info">
+                            <h3>Compteur Numérique Moto</h3>
+                            <p>Système d'instrumentation numérique pour motocycle, basé sur une architecture Raspberry
+                                Pi et intégrant un affichage LCD performant.</p>
+                            <a href="project-counter.html" class="btn">Voir le projet</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="https://placehold.co/600x400/8fad96/ffffff?text=Nuit+de+l'info"
+                            alt="Site Nuit de l'info">
+                        <div class="project-info">
+                            <h3>Nuit de l'info</h3>
+                            <p>Conception et développement d'une plateforme web interactive pour l'événement 'Nuit de
+                                l'Info', réalisée avec React.</p>
+                            <a href="https://site-ndi-2025.fly.dev/" class="btn">Voir le projet</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="https://placehold.co/600x400/333333/ffffff?text=SAE+Site+web+vote+participatif"
+                            alt="Site-SAE">
+                        <div class="project-info">
+                            <h3>Site web vote participatif SAE</h3>
+                            <p>Conception et réalisation de ce portfolio personnel en HTML/CSS natif, optimisé pour la
+                                performance et l'expérience utilisateur.</p>
+                            <a href="https://webinfo.iutmontp.univ-montp2.fr/~schraders/sae3a-base/web/controleurFrontal.php?controleur=question&action=afficherListe"
+                                class="btn">Voir le projet</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <h2 class="section-title">Me Contacter</h2>
+                <div class="contact-content">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:steban.schrader@email.com">steban.schrader@email.com</a>
+                    </div>
+                    <div class="contact-socials">
+                        <a href="https://www.linkedin.com/in/st%C3%A9ban-schrader/" target="_blank">LinkedIn</a>
+                        <a href="https://github.com/StebanSchrader" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Steban Schrader. Tous droits réservés.</p>
+    </footer>
+</body>
+
+</html>

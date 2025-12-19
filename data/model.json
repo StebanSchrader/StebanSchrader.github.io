@@ -1,0 +1,59 @@
+{
+    "profile": {
+        "firstName": "Steban",
+        "lastName": "Schrader",
+        "intro": "Etudiant en 2ème année de BUT-Info",
+        "image": "assets/profile.png"
+    },
+    "about": {
+        "title": "A propos de moi",
+        "description": "Je suis un étudiant passionné par le développement informatique et les nouvelles technologies. Actuellement en deuxième année de BUT Informatique, je cherche à approfondir mes compétences en développement web et logiciel.",
+        "details": "J'aime résoudre des problèmes complexes et créer des interfaces utilisateur intuitives. Mon parcours m'a permis d'acquérir une base solide en algorithmique, en programmation orientée objet et en conception de bases de données. Je suis toujours curieux d'apprendre de nouveaux langages et frameworks pour rester à jour dans ce domaine en constante évolution."
+    },
+    "skills": {
+        "title": "Compétences",
+        "categories": [
+            {
+                "name": "Développement Web",
+                "items": ["HTML5/CSS3", "JavaScript", "React.js", "Node.js", "PHP"]
+            },
+            {
+                "name": "Programmation",
+                "items": ["Java", "Python", "C++", "C#"]
+            },
+            {
+                "name": "Outils & DevOps",
+                "items": ["Git/GitHub", "Docker", "Linux", "VS Code", "Figma"]
+            }
+        ]
+    },
+    "projects": {
+        "title": "Mes Projets",
+        "items": [
+            {
+                "title": "Site E-Commerce",
+                "description": "Une application web complète de vente en ligne avec gestion de panier et paiement, réalisée en PHP et MySQL.",
+                "image": "https://placehold.co/600x400/8faec8/ffffff?text=E-Commerce",
+                "link": "#"
+            },
+            {
+                "title": "Application Gestion de Stock",
+                "description": "Outil de gestion de stock développé en Java avec interface JavaFX et base de données SQL.",
+                "image": "https://placehold.co/600x400/8fad96/ffffff?text=App+Gestion",
+                "link": "#"
+            },
+            {
+                "title": "Portfolio Personnel",
+                "description": "Le site sur lequel vous naviguez actuellement, conçu avec une architecture MVC Client-Side.",
+                "image": "https://placehold.co/600x400/333333/ffffff?text=Portfolio",
+                "link": "#"
+            }
+        ]
+    },
+    "contact": {
+        "title": "Me Contacter",
+        "email": "steban.schrader@email.com",
+        "linkedin": "linkedin.com/in/steban-schrader",
+        "github": "github.com/stebanschrader"
+    }
+}
