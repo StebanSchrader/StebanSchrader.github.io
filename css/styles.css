@@ -13,6 +13,15 @@
     src: url("../assets/sf-pro-display/SFPRODISPLAYLIGHTITALIC.OTF");
 }
 
+@font-face {
+    font-family: 'puncfont';
+    src: url("../assets/punc-font/punc-regular.otf");
+}
+
+.func {
+    font-family: 'puncfont', sans-serif;
+}
+
 /* Reset */
 * {
     margin: 0;
