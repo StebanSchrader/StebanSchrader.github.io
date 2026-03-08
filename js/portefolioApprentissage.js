@@ -18,6 +18,7 @@ function basicInitalisation() {
 
     // Create a main wrapper to hold both the buttons on the left and content on the राइट
     let mainWrapper = document.createElement("div");
+    mainWrapper.id = "portfolio-main-wrapper";
     mainWrapper.style.display = "flex";
     mainWrapper.style.flexDirection = "row";
     mainWrapper.style.gap = "4rem";
@@ -29,6 +30,7 @@ function basicInitalisation() {
 
     // Left sidebar for the main competence buttons
     let sidebar = document.createElement("div");
+    sidebar.id = "portfolio-sidebar";
     sidebar.style.display = 'flex';
     sidebar.style.flexDirection = 'column';
     sidebar.style.gap = '15px';

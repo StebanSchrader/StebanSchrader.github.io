@@ -29,14 +29,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (scrollTop > lastScrollTop) {
             // Scrolling DOWN
-            navbar.classList.remove('visible');
+            navbar.classList.add('hidden');
             if (hamburger && hamburger.classList.contains('active')) {
                 hamburger.classList.remove('active');
                 navLinks.classList.remove('active');
             }
         } else {
             // Scrolling UP
-            navbar.classList.add('visible');
+            navbar.classList.remove('hidden');
         }
 
         lastScrollTop = scrollTop;
